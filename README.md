@@ -1,8 +1,3 @@
-<style>
-ch { color: #ff3cc1 }
-jb { color: #46a6ff }
-</style>
-
 # Food Table Enhancer
 
 ## Features
@@ -12,7 +7,7 @@ jb { color: #46a6ff }
 * Readability
     * Add a percentage number to the FEP bar
     * Re-color +2 FEP stats to closely resemble their current column color
-    * Show distinct colors for spices (ex: <ch>chives</ch>, <jb>juniper berries</jb>)
+    * Show distinct colors for spices (ex: chives, juniper berries)
     * Darken ingredients that aren't 100%
     * Put each ingredient on its own row.
 
