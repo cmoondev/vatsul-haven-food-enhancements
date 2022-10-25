@@ -250,7 +250,7 @@ function addTbodyObs() {
 function addCss() {
     console.log("[INFO]: Importing stylus css from github");
     const STYLUS_CSS = GM_getResourceText("STYLUS_CSS");
-    console.log("[DBG]: " + STYLUS_CSS);
+    //debugLog(STYLUS_CSS);
     GM_addStyle(STYLUS_CSS);
 }
 
