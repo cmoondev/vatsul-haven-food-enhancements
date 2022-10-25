@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Haven Food Vatsul Enhancements
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.01
 // @description  Food table enhancements
 // @author       Cmoon
 // @match        https://hnhfood.vatsul.com/
