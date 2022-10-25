@@ -3,10 +3,15 @@
     color: #fff !important;
 }
 
-/* remove donation button and exclusion at the bottom */
+/* remove donation button */
 #donation-form, body > app-root > app-foodtable > div.filters {
     display: none !important;
 }
+
+/* remove exclusions at the bottom */
+/* body > app-root > app-foodtable > div.filters {
+    display: none !important;
+} */
 
 body, mat-paginator, .foodtable, #search-help {
     background-color: #3e3e3e !important;
