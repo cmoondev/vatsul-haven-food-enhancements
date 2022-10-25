@@ -1,0 +1,189 @@
+* {
+    font-size: 12px !important;
+    color: #fff !important;
+}
+
+/* remove donation button and exclusion at the bottom */
+#donation-form, body > app-root > app-foodtable > div.filters {
+    display: none !important;
+}
+
+body, mat-paginator, .foodtable, #search-help {
+    background-color: #3e3e3e !important;
+}
+
+#helptext {
+    cursor: pointer;
+    color: #6bc1ff !important;
+}
+
+#fep-bar {
+    width: 13em !important;
+}
+
+input {
+    background-color: #4a4a4a !important;
+    width: 95% !important;
+}
+
+/* Items per page dropdown */
+.mat-select-panel {
+    background-color: #6a6a6a !important;
+}
+
+body > app-root > app-foodtable > div > table {
+    padding-top: 10px !important;
+}
+
+/* table column stat text color */
+tbody > tr > td > span {
+    color: black !important;
+}
+
+#ingredients-cell {
+    padding-left: 10px;
+}
+
+/* input + table container */
+body > app-root > app-foodtable > div {
+    width: 55%;
+}
+
+/* Top page nav section */
+body > app-root > app-foodtable > mat-paginator, body > app-root > app-foodtable > a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* Food table container */
+body > app-root > app-foodtable > div {
+    margin: 0 auto !important;
+}
+
+/* Food table */
+body > app-root > app-foodtable > div > table {
+    margin-top: 10px !important;
+}
+
+/* Food table title row */
+tr.mat-header-row {
+    height: 25px !important;
+}
+
+/* Bottom food-info2.json footer */
+body > app-root > app-foodtable > a {
+    padding-top: 15px;
+}
+
+
+
+/* Stat coloring */
+:root {
+    --str2: #ca0000;
+    --agi2: #4830ff;
+    --int2: #007bff;
+    --con2: #d12193;
+    --per2: #ea7800;
+    --cha2: #009c29;
+    --dex2: #a8a000;
+    --wil2: #8aa200;
+    --psy2: #7000e4;
+    
+    --percentfull: #000;
+}
+
+span[title="str +2"], div[fep=str2] {
+    color: var(--str2) !important;
+    font-weight: bold;
+}
+span[title="agi +2"], div[fep=agi2] {
+    color: var(--agi2) !important;
+    font-weight: bold;
+}
+span[title="int +2"], div[fep=int2] {
+    color: var(--int2) !important;
+    font-weight: bold;
+}
+span[title="con +2"], div[fep=con2] {
+    color: var(--con2) !important;
+    font-weight: bold;
+}
+span[title="per +2"], div[fep=per2] {
+    color: var(--per2) !important;
+    font-weight: bold;
+}
+span[title="cha +2"], div[fep=cha2] {
+    color: var(--cha2) !important;
+    font-weight: bold;
+}
+span[title="dex +2"], div[fep=dex2] {
+    color: var(--dex2) !important;
+    font-weight: bold;
+}
+span[title="wil +2"], div[fep=wil2] {
+    color: var(--wil2) !important;
+    font-weight: bold;
+}
+span[title="psy +2"], div[fep=psy2] {
+    color: var(--psy2) !important;
+    font-weight: bold;
+}
+
+
+
+/* 
+    * Custom Classes added via javascript 
+    */
+
+/* percent split */
+.percentfull {
+    color: #fff !important;
+    text-shadow: 0 0 1px var(--percentfull), 0 0 1px var(--percentfull), 0 0 1px var(--percentfull), 0 0 1px var(--percentfull);   
+}
+.percentmixed {
+    color: #9c9c9c !important;
+}
+
+/* spices */
+.black-pepper {
+    color: #000 !important;
+}
+
+.chives {
+    color: #ff3cc1 !important;
+}
+
+.dill {
+    color: #00b502 !important;
+}
+
+.juniper-berries {
+    color: #46a6ff !important;
+}
+
+.kvann {
+    color: #8bff38 !important;
+}
+
+.laurel-leaves {
+    color: #ffb300 !important;
+}
+
+.sage {
+    color: #ff5e5e !important;
+}
+
+.thyme {
+    color: #00ff62 !important;
+}
+
+/* stats */
+.stat1 {
+    color: black !important;
+}
+
+.stat2 {
+    color: black !important;
+/*         text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black; */
+}
