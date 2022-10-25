@@ -4,7 +4,7 @@
 }
 
 /* remove donation button */
-#donation-form, body > app-root > app-foodtable > div.filters {
+#donation-form {
     display: none !important;
 }
 
