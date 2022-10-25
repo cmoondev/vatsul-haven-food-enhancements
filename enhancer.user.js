@@ -7,7 +7,7 @@
 // @match        https://hnhfood.vatsul.com/
 // @match        https://food.hearthlands.net/
 // @require      https://code.jquery.com/jquery-3.6.1.min.js
-// @resource     STYLUS_CSS https://gist.githubusercontent.com/cmoondev/f835fa9592c3651588e9faead9ade1a8/raw/e35d527e7f8d7008cba6134a002107fbe8e97b4f/enhancer.css
+// @resource     STYLUS_CSS https://github.com/cmoondev/vatsul-haven-food-enhancements/raw/main/enhancer.css
 // @icon         https://www.google.com/s2/favicons?domain=vatsul.com
 // @downloadURL  https://github.com/cmoondev/vatsul-haven-food-enhancements/raw/main/enhancer.user.js
 // @updateURL    https://github.com/cmoondev/vatsul-haven-food-enhancements/raw/main/enhancer.user.js
