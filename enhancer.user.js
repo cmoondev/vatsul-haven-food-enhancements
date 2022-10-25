@@ -267,7 +267,8 @@ function addCss() {
     // Not really needed anymore since we can use mutation obs to auto add them to table.
     //createPercentButton();
 
-    addSearchExclusions();
+    // Removing since it's probably more useful to just use the filter at the bottom.
+    //addSearchExclusions();
     addTableDivObs();
 
 })();
