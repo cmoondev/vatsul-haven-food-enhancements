@@ -82,6 +82,25 @@ body > app-root > app-foodtable > a {
 }
 
 
+/* All filter buttons */
+div.filters > div > div > button {
+    width: 40px;
+    margin: 5px;
+    color: #2f2e2e !important;
+    font-weight: bold !important;
+    font-size: 0px !important;
+}
+
+body > app-root > app-foodtable > div.filters > div:nth-child(1) > div > button:after, body > app-root > app-foodtable > div.filters > div:nth-child(3) > div > button:after {
+    font-size: 14px;
+    content: "🡲";
+}
+
+body > app-root > app-foodtable > div.filters > div:nth-child(2) > div > button:after, body > app-root > app-foodtable > div.filters > div:nth-child(4) > div > button:after {
+    font-size: 14px;
+    content: "🡰";
+}
+
 
 /* Stat coloring */
 :root {
